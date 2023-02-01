@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,200&display=swap');
+
+.header {
+  font-family: 'Barlow', sans-serif;
+  
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+}
+.image {
+	background-image: url(https://picsum.photos/200/300?grayscale);
+	height: 250px;
+}
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+body {
+  font-family: 'Barlow', sans-serif;
+  background-color: #bebaba;
+  color: #fbfbfb;
+  padding: 50px;
+  text-align: center
+}
+h1 {
+  font-family: 'Barlow', sans-serif;
+  color: #E7EAED;
+}
+h2, h3 {
+  font-family: 'Barlow', sans-serif;
+  color: #E7EAED;
+}
+
+.card {
+  background-color: #a09f9f;
+  width: 400px;
+  padding: 40px;
+  margin: 25px auto;
+  border-radius: 20px;
+  border: 1px solid #ffffff;
+  align-items: center;
+}
+
+.card-footer {
+  width: 400px;
+  margin: 25px auto;
+  border-radius: 20px;
+  align-items: center;
+}
+
+ul {
+  padding: 0;
+}
+.btn-white {
+  padding: 10px;
+  display: inline-block;
+  transition: background .5s ease,color .3s ease;
+}
+a {
+  text-decoration: none;
+  color: #E0E0E0;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s ease;
+  padding: 4px;
+  display: inline-block;
+}
+a:hover {
+  background-color: #ffffff;
+  color: #020202;
+
+}
+
+img.img-circle {
+  border-radius: 10px;
+  width: 140px;
+  height: 120px;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline;
+}
+@media (max-width: 1080px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
